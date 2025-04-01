@@ -1,0 +1,3273 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/*--------------------------------------------------
+	Layout 
+  --------------------------------------------------
+
+	Setting column sizes is now more flexible than
+	before. You can now set your own breakpoints,
+	as well as completely different layouts per
+	breakpoint. (Defaults are now 12 columns at
+	50rem and 13 columns 65rem.)
+
+  ---------------------------------------------------
+*/
+/*--------------------------------------------------
+	Typographic Scale 
+  --------------------------------------------------
+	http://modularscale.com/scale/?px1=16&px2=12&ra1=1.5&ra2=0
+	
+	Line-height can now be set by breakpoints.
+*/
+/* Apprise */
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.appriseOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.appriseOuter {
+  background: #eee;
+  border: 1px solid #fff;
+  box-shadow: 0 3px 7px #333;
+  -moz-box-shadow: 0 3px 7px #333;
+  -webkit-box-shadow: 0 3px 7px #333;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -khtml-border-radius: 4px;
+  z-index: 99999999;
+  min-width: 200px;
+  min-height: 50px;
+  max-width: 75%;
+  position: fixed;
+  display: none;
+}
+
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.appriseInner {
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+  padding: 20px;
+}
+
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.appriseInner button {
+  border: 1px solid #bbb;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: 0;
+  color: #232d3d;
+  font-size: 12px;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff;
+  cursor: pointer;
+  box-shadow: 0 1px 2px #ccc;
+  -moz-box-shadow: 0 1px 2px #ccc;
+  -webkit-box-shadow: 0 1px 2px #ccc;
+  margin: 0 3px;
+  padding: 4px 10px;
+}
+
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.appriseInner button:hover {
+  color: #d85054;
+}
+
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.aButtons, .aInput {
+  text-align: center;
+  margin: 20px 10px 0;
+}
+
+/* line 3, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.aTextbox {
+  border: 1px solid #aaa;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -khtml-border-radius: 4px;
+  box-shadow: 0 1px 0 #fff;
+  -moz-box-shadow: 0 1px 0 #fff;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  width: 180px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+/* Colorbox */
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+/* line 11, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* line 12, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left;
+}
+
+/* line 14, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxContent {
+  position: relative;
+}
+
+/* line 15, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* line 16, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxTitle {
+  margin: 0;
+}
+
+/* line 17, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 18, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer;
+}
+
+/* line 19, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 20, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
+/* line 21, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+/* line 28, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxOverlay {
+  background: #111111;
+}
+
+/* line 29, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#colorbox {
+  outline: 0;
+}
+
+/*
+    #cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
+    #cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
+    #cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0;}
+    #cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px;}
+    #cboxBottomCenter{height:43px; background:url(images/border.png) repeat-x bottom left;}
+    #cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
+    #cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
+    #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}*/
+/* line 39, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxContent {
+  background: white;
+  overflow: visible;
+  padding: 32px;
+  padding: 2rem;
+  -webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px / 8px;
+  border-radius: 8px / 8px;
+}
+
+/* line 40, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxIframe {
+  background: white;
+}
+
+/* line 41, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxError {
+  padding: 50px;
+  border: 1px solid #cccccc;
+}
+
+/* line 42, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxLoadedContent {
+  margin-bottom: 5px;
+}
+
+/* line 43, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxLoadingOverlay {
+  background: url(http://cordeliayu.com/workspace/css/images/loading_background.png) no-repeat center center;
+}
+
+/* line 44, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxLoadingGraphic {
+  background: url(http://cordeliayu.com/workspace/css/images/loading.gif) no-repeat center center;
+}
+
+/* line 45, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxTitle {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: #7C7C7C;
+}
+
+/* line 46, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxCurrent {
+  position: absolute;
+  bottom: -25px;
+  left: 58px;
+  font-weight: bold;
+  color: #7C7C7C;
+}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+/* line 50, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  position: absolute;
+  bottom: -29px;
+  background: url(http://cordeliayu.com/workspace/css/images/controls.png) no-repeat 0px 0px;
+  width: 23px;
+  height: 23px;
+  text-indent: -9999px;
+}
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+/* line 53, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
+  outline: 0;
+}
+
+/* line 55, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxPrevious {
+  left: 0px;
+  background-position: -51px -25px;
+}
+
+/* line 56, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxPrevious:hover {
+  background-position: -51px 0px;
+}
+
+/* line 57, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxNext {
+  left: 27px;
+  background-position: -75px -25px;
+}
+
+/* line 58, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxNext:hover {
+  background-position: -75px 0px;
+}
+
+/* line 59, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxClose {
+  right: 0;
+  background-position: -100px -25px;
+}
+
+/* line 60, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+#cboxClose:hover {
+  background-position: -100px 0px;
+}
+
+/* line 62, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxSlideshow_on #cboxSlideshow {
+  background-position: -125px 0px;
+  right: 27px;
+}
+
+/* line 63, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxSlideshow_on #cboxSlideshow:hover {
+  background-position: -150px 0px;
+}
+
+/* line 64, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxSlideshow_off #cboxSlideshow {
+  background-position: -150px -25px;
+  right: 27px;
+}
+
+/* line 65, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.cboxSlideshow_off #cboxSlideshow:hover {
+  background-position: -125px 0px;
+}
+
+/* End Colorbox */
+/* Tooltips */
+/* line 70, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy {
+  font-size: 12px;
+  font-size: 0.75rem;
+  position: absolute;
+  padding: 5px;
+  z-index: 100000;
+}
+
+/* line 71, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-inner {
+  background-color: #111111;
+  color: white;
+  max-width: 200px;
+  padding: 5px 8px 4px 8px;
+  text-align: center;
+}
+
+/* Rounded corners */
+/* line 74, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-inner {
+  -webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px / 8px;
+  border-radius: 8px / 8px;
+}
+
+/* Uncomment for shadow */
+/*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+/* line 79, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 5px dashed #111111;
+}
+
+/* Rules to colour arrows */
+/* line 82, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-arrow-n {
+  border-bottom-color: #111111;
+}
+
+/* line 83, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-arrow-s {
+  border-top-color: #111111;
+}
+
+/* line 84, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-arrow-e {
+  border-left-color: #111111;
+}
+
+/* line 85, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-arrow-w {
+  border-right-color: #111111;
+}
+
+/* line 87, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-n .tipsy-arrow {
+  top: 0px;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 88, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-nw .tipsy-arrow {
+  top: 0;
+  left: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 89, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-ne .tipsy-arrow {
+  top: 0;
+  right: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 90, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-s .tipsy-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 91, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-sw .tipsy-arrow {
+  bottom: 0;
+  left: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 92, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-se .tipsy-arrow {
+  bottom: 0;
+  right: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+/* line 93, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-e .tipsy-arrow {
+  right: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* line 94, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_plugins.scss */
+.tipsy-w .tipsy-arrow {
+  left: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* End Tipsy */
+/* line 33, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 40, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 48, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 55, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 17, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+body {
+  margin: 0;
+  font-size: 1em;
+}
+@media screen and (min-width: 52em) {
+  /* line 19, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  body {
+    line-height: 24px;
+    line-height: 1.5rem;
+  }
+}
+
+/* line 21, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+body, button, input, select, textarea {
+  font-family: serif;
+  color: #111111;
+}
+
+/* line 103, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 109, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 36, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+body {
+  font-size: 100%;
+  margin: 0 auto;
+  color: #111111;
+}
+@media screen and (min-width: 52em) {
+  /* line 36, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  body {
+    line-height: 24px;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 36, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  body {
+    line-height: 27.008px;
+    line-height: 1.688rem;
+  }
+}
+
+/* line 45, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 47, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 48, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+em em {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 50, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote {
+  margin: 0 0 -16px;
+  margin: 0 0 -1rem;
+  padding: 0 0 0 15.66667px;
+  padding: 0 0 0 0.95rem;
+  border-color: #ccc;
+  border-left: solid 2.4px rgba(25, 25, 25, 0.25);
+  border-width: .15rem;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+@media screen and (min-width: 60em) {
+  /* line 50, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  blockquote {
+    margin-left: -16px;
+    margin-left: -1.5rem;
+    padding-left: 15.66667px;
+    padding-left: 1.35rem;
+  }
+}
+/* line 62, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote blockquote {
+  border-color: #aaa;
+  border-color: rgba(25, 25, 25, 0.25);
+}
+/* line 66, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote blockquote blockquote {
+  border-color: #999;
+  border-color: rgba(25, 25, 25, 0.25);
+}
+
+/* line 73, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 75, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 77, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+ins {
+  background: transparent;
+  color: #002244;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* line 79, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+mark {
+  background: #ffff99;
+  color: #111111;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 82, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+pre, code, kbd, samp {
+  font-family: "inconsolata-1", "inconsolata-2", monospace, serif;
+  _font-family: "inconsolata-1", "inconsolata-2", 'courier new', monospace;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+/* line 85, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 87, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+q {
+  quotes: none;
+}
+
+/* line 88, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 90, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+small {
+  font-size: 12px;
+  font-size: .75rem;
+}
+
+/* line 93, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+sub, sup {
+  font-size: 8px;
+  font-size: .5rem;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 94, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+sup {
+  top: 8px;
+  top: -0.5em;
+}
+
+/* line 95, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+sub {
+  bottom: -4px;
+  bottom: -0.25em;
+}
+
+/* line 97, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+a {
+  color: #003366;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+/* line 102, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+a :visited {
+  color: #333366;
+}
+/* line 103, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+a :hover {
+  color: #6699cc;
+  text-decoration: underline;
+}
+
+/* line 107, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h1, h2, h3, h4, h5, h6, dt {
+  color: #003366;
+  font-weight: 400;
+  font-family: "lemonde-sans-1","lemonde-sans-2", sans-serif;
+}
+
+/* line 109, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px 0px 16px 0px;
+  margin: 0rem 0rem 1rem 0rem;
+}
+/* line 111, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+  color: #003366;
+}
+/* line 112, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: #6699cc;
+}
+
+/* line 115, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h3 {
+  color: #999999;
+}
+
+/* line 117, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  /*	@media screen and (min-width: 60em) {
+  		@include set-size(line-height, ($line-height-large * 1.5));
+  	}
+  */
+}
+@media screen and (min-width: 50em) {
+  /* line 117, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h1 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+  }
+}
+
+/* line 131, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h2 {
+  margin: -3.552px 0px 27.008px 0px;
+  margin: -0.222rem 0rem 1.688rem 0rem;
+  font-size: 24px;
+  font-size: 1.5rem;
+  /*
+  	@media screen and (min-width: 60em) {
+  		@include set-size(margin-top, $base);
+  		@include set-size(margin-bottom, 1.875rem);
+  		@include set-size(line-height, ($line-height-large * 1.5));
+  	}
+  */
+}
+@media screen and (min-width: 50em) {
+  /* line 131, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h2 {
+    font-size: 27.008px;
+    font-size: 1.688rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (min-width: 65.25em) {
+  /* line 131, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h2 {
+    line-height: 40.512px;
+    line-height: 2.532rem;
+    margin-top: 27.008px;
+    margin-top: 1.688rem;
+  }
+}
+
+/* line 155, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h3, *[role=complimentary] dt {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  /*
+  	@media screen and (min-width: 60em) {
+  		@include set-size(margin-bottom, 1.8125rem);
+  	}
+  */
+}
+@media screen and (min-width: 50em) {
+  /* line 155, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h3, *[role=complimentary] dt {
+    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+    margin-bottom: 27.008px;
+    margin-bottom: 1.688rem;
+  }
+}
+@media screen and (min-width: 65.25em) {
+  /* line 155, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h3, *[role=complimentary] dt {
+    line-height: 40.512px;
+    line-height: 2.532rem;
+    margin-top: 27.008px;
+    margin-top: 1.688rem;
+  }
+}
+
+/* line 176, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h2 + h3 {
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 50em) {
+  /* line 176, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h2 + h3 {
+    margin-top: -20px;
+    margin-top: -1.25rem;
+    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
+  }
+}
+
+/* line 185, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+h4, h5, h6 {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 50em) {
+  /* line 185, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h4, h5, h6 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 24px;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (min-width: 65.25em) {
+  /* line 185, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h4, h5, h6 {
+    margin-top: 27.008px;
+    margin-top: 1.688rem;
+  }
+}
+
+/* line 200, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote, ul, ol, dl {
+  margin: 24px 0px 24px 0px;
+  margin: 1.5rem 0rem 1.5rem 0rem;
+  font-size: 16px;
+  font-size: 1rem;
+}
+@media screen and (min-width: 50em) {
+  /* line 200, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  blockquote, ul, ol, dl {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+/* line 210, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote + span.permalink + h1, blockquote + span.permalink h2, blockquote + span.permalink h3, blockquote + span.permalink h4, blockquote + span.permalink h5, blockquote + span.permalink h6, ul + span.permalink + h1, ul + span.permalink h2, ul + span.permalink h3, ul + span.permalink h4, ul + span.permalink h5, ul + span.permalink h6, ol + span.permalink + h1, ol + span.permalink h2, ol + span.permalink h3, ol + span.permalink h4, ol + span.permalink h5, ol + span.permalink h6, dl + span.permalink + h1, dl + span.permalink h2, dl + span.permalink h3, dl + span.permalink h4, dl + span.permalink h5, dl + span.permalink h6 {
+  margin-top: 0;
+}
+
+/* line 216, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+p {
+  margin: 0;
+  font-size: 16px;
+  font-size: 1rem;
+}
+@media screen and (min-width: 50em) {
+  /* line 216, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  p {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+
+/* line 227, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote > *:first-child {
+  margin-top: 0;
+}
+
+/* line 228, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+blockquote > *:last-child {
+  margin-bottom: 0;
+}
+
+/* line 231, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+* + p {
+  text-indent: 24px;
+  text-indent: 1.5rem;
+}
+
+/* line 235, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+header + p, h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p, blockquote + p, q + p {
+  text-indent: 0;
+}
+
+/* line 244, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+ul, ol, li, dl, dt, dd {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 50em) {
+  /* line 249, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+  h2 + ul, h2 + ol {
+    margin-top: -6px;
+    margin-top: -0.375rem;
+  }
+}
+
+/* line 255, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+ul {
+  list-style: circle;
+}
+
+/* line 257, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-left: 24px;
+  margin-left: 1.5rem;
+}
+
+/* line 283, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 289, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 266, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+img, svg, video, audio, iframe {
+  width: 100%;
+}
+
+/* line 300, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 278, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+form {
+  margin: 0;
+}
+
+/* line 279, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 282, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+label {
+  cursor: pointer;
+  color: #003366;
+}
+
+/* line 287, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+}
+
+/* line 293, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 297, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button, input {
+  line-height: normal;
+}
+
+/* line 303, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+/* line 307, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 308, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 309, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 313, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 318, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+/* line 324, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button, input[type=submit] {
+  border: none;
+  background: #002244;
+  color: white;
+  margin-top: 1px;
+  margin-top: 0.0625rem;
+  -webkit-transition: color 0.5s ease, background 0.5s ease;
+  -moz-transition: color 0.5s ease, background 0.5s ease;
+  -o-transition: color 0.5s ease, background 0.5s ease;
+  transition: color 0.5s ease, background 0.5s ease;
+}
+/* line 331, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button:hover, input[type=submit]:hover {
+  background: #6699cc;
+}
+/* line 332, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_overrides.scss */
+button:active, input[type=submit]:active {
+  background: #6699cc;
+  color: #002244;
+}
+
+/* line 434, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* entypo */
+/* line 8, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_typography.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* line 12, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_typography.scss */
+body {
+  font-family: Georgia, serif;
+}
+
+/* line 16, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_typography.scss */
+a {
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+/* line 15, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body, select, input, textarea {
+  color: #111111;
+  font: normal normal 400;
+  font-family: "lemonde-courrier-1","lemonde-courrier-2", serif;
+}
+
+/* line 27, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > * {
+  margin: 0 auto;
+}
+
+/* line 31, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body {
+  /* New Day */
+  /*--------------------------------------------------
+  	Articles
+    --------------------------------------------------
+  	Post Types:
+  	Text
+  	Quotation
+  	Link
+  	Chat
+  */
+  /* Article navigation */
+  /********************
+  	Viewing Modes
+   ********************/
+}
+/* line 32, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > header, body > div#content, body > footer {
+  width: 20em;
+}
+@media screen and (min-width: 52em) {
+  /* line 32, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > header, body > div#content, body > footer {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 32, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > header, body > div#content, body > footer {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 38, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body *[role=main] {
+    width: 100%;
+  }
+}
+/* line 43, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body header[role=banner]:after, body header[role=banner] h1:after, body *[role=main]:after, body article:after, body section[role=complimentary]:after, body nav:after, body nav ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* line 48, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav {
+  border-top: 1.584px solid #002244;
+  border-top: 0.099rem solid #002244;
+  border-bottom: 1.584px dotted #002244;
+  border-bottom: 0.099rem dotted #002244;
+  border-bottom-style: solid;
+}
+/* line 54, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav a:visited {
+  color: #003366;
+}
+/* line 55, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav a:hover {
+  color: #6699cc;
+}
+/* line 58, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav mark {
+  background: transparent;
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 62, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav mark a {
+  color: #6699cc;
+}
+/* line 65, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav mark a:hover {
+  color: #407fbf;
+}
+/* line 69, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav ul {
+  margin: 0 auto;
+}
+/* line 71, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav ul {
+  list-style: none;
+  text-align: center;
+}
+/* line 76, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav li {
+  margin-right: 36px;
+  margin-right: 2.25rem;
+  display: inline;
+}
+/* line 80, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav li:last-child {
+  margin-right: 0;
+}
+/* line 81, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav li:first-child {
+  margin-left: 0;
+}
+@media screen and (min-width: 52em) {
+  /* line 88, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body header[role=banner] {
+    margin-top: 27.008px;
+    margin-top: 1.688rem;
+  }
+}
+/* line 93, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body header[role=banner] h1 {
+  text-align: center;
+  padding: 24px 0px 24px 0px;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  margin: 3.552px 0px 1.584px 0px;
+  margin: 0.222rem 0rem 0.099rem 0rem;
+  color: #003366;
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 52em) {
+  /* line 93, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body header[role=banner] h1 {
+    margin: 0;
+    padding: 54px 0px 54px 0px;
+    padding: 3.375rem 0rem 3.375rem 0rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 108, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body header[role=banner] nav {
+    height: 34px;
+    height: 2.125rem;
+  }
+}
+/* line 114, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body header[role=banner] nav ul {
+  display: block;
+  margin-top: 1.584px;
+  margin-top: 0.099rem;
+  margin-bottom: 5.328px;
+  margin-bottom: 0.333rem;
+  height: 24px;
+  height: 1.5rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 114, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body header[role=banner] nav ul {
+    margin-top: 3px;
+    margin-top: 0.1875rem;
+  }
+}
+/* line 126, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body header[role=banner] nav ul#global_nav li {
+  margin-top: 3.552px;
+  margin-top: 0.222rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 126, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body header[role=banner] nav ul#global_nav li {
+    margin-top: 0;
+  }
+}
+/* line 136, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities, body nav#global {
+  position: fixed;
+  z-index: 10;
+  background: #111111;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  -webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px / 8px;
+  border-radius: 8px / 8px;
+}
+/* line 145, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul, body nav#global ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px 3.552px 4px 3.552px;
+  padding: 0.25rem 0.222rem 0.25rem 0.222rem;
+  display: block;
+  height: 24px;
+  height: 1.5rem;
+}
+/* line 152, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li, body nav#global ul li {
+  height: 28px;
+  height: 1.75rem;
+  margin-top: -2px;
+  margin-top: -0.125rem;
+  margin-right: 0;
+  float: left;
+  line-height: 27.008px;
+  line-height: 1.688rem;
+}
+/* line 160, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li a, body div#utilities ul li button, body nav#global ul li a, body nav#global ul li button {
+  display: block;
+  padding: 0 4.5px;
+  padding: 0 .625rem;
+  color: white;
+  text-decoration: none;
+}
+/* line 167, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li a:visited, body div#utilities ul li button:visited, body nav#global ul li a:visited, body nav#global ul li button:visited {
+  color: white;
+}
+/* line 168, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li a:hover, body div#utilities ul li button:hover, body nav#global ul li a:hover, body nav#global ul li button:hover {
+  color: #cccccc;
+}
+/* line 169, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li a span, body div#utilities ul li button span, body nav#global ul li a span, body nav#global ul li button span {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  position: fixed;
+}
+/* line 175, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li mark a:link, body div#utilities ul li mark a:visited, body nav#global ul li mark a:link, body nav#global ul li mark a:visited {
+  color: #6699cc;
+}
+/* line 180, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li button, body nav#global ul li button {
+  background: transparent;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  margin: 1px 0 1px -6px;
+  padding-bottom: 6px;
+}
+/* line 189, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li button[disabled], body nav#global ul li button[disabled] {
+  color: #99cc99;
+  opacity: .25;
+  -webkit-transition: color 0.6s ease-out, opacity 1.8s ease-in-out;
+  -webkit-transition-delay: 0s, 0.9s;
+  -moz-transition: color 0.6s ease-out, opacity 1.8s ease-in-out 0.9s;
+  -o-transition: color 0.6s ease-out, opacity 1.8s ease-in-out 0.9s;
+  transition: color 0.6s ease-out, opacity 1.8s ease-in-out 0.9s;
+}
+/* line 195, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li span, body nav#global ul li span {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  position: fixed;
+}
+/* line 203, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav#global {
+  top: 12px;
+  top: 0.75rem;
+  right: 12px;
+  right: 0.75rem;
+  border: none;
+}
+/* line 207, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav#global li {
+  margin-top: 1px;
+  margin-bottom: -1px;
+}
+/* line 213, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities {
+  top: 12px;
+  top: 0.75rem;
+  left: 12px;
+  left: 0.75rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 219, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div#utilities ul li.show-annotations {
+    display: none;
+  }
+}
+/* line 225, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li button.entypo-light-up, body div#utilities ul li button.entypo-adjust {
+  margin: 1px -2px -1px 0;
+}
+@media screen and (min-width: 48em) {
+  /* line 225, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div#utilities ul li button.entypo-light-up, body div#utilities ul li button.entypo-adjust {
+    margin-left: -4px;
+    margin-right: 0;
+  }
+}
+/* line 232, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li button.entypo-light-down {
+  margin: 1px 0 0 0;
+}
+@media screen and (min-width: 48em) {
+  /* line 232, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div#utilities ul li button.entypo-light-down {
+    margin: 1px 2px 0 0;
+  }
+}
+/* line 239, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#utilities ul li button.entypo-adjust, body div#utilities ul li button.entypo-adjust:hover {
+  color: #6699cc;
+}
+@media screen and (min-width: 52em) {
+  /* line 250, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body *[role=main] {
+    width: 100%;
+  }
+}
+/* line 252, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article > header {
+  margin-bottom: 27.008px;
+  margin-bottom: 1.688rem;
+}
+/* line 256, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article > header h1 {
+  margin-bottom: 0;
+}
+/* line 258, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article > header h2 {
+  margin: 3.552px 0px -3.552px 0px;
+  margin: 0.222rem 0rem -0.222rem 0rem;
+  margin-top: 3.552px;
+  margin-top: 0.222rem;
+  font-size: 18px;
+  font-size: 1.125rem;
+  color: #999999;
+}
+/* line 270, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#page-not-found_page section[role=main] {
+  margin: 48px auto;
+  margin: 3rem auto;
+}
+@media screen and (min-width: 52em) {
+  /* line 270, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#page-not-found_page section[role=main] {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 270, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#page-not-found_page section[role=main] {
+    width: 624px;
+    width: 39rem;
+  }
+}
+/* line 285, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#search_page section[role=main].no-result {
+  margin: 81px 0px 162px 0px;
+  margin: 5.0625rem 0rem 10.125rem 0rem;
+}
+/* line 288, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#search_page section[role=main] header, body#search_page section[role=main] article.no-results {
+  margin-top: 72px;
+  margin-top: 4.5rem;
+  float: right;
+  clear: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 288, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] header, body#search_page section[role=main] article.no-results {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 288, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] header, body#search_page section[role=main] article.no-results {
+    margin-right: 147.75px;
+    margin-right: 12.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 288, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] header, body#search_page section[role=main] article.no-results {
+    width: 708px;
+    width: 44.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 288, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] header, body#search_page section[role=main] article.no-results {
+    margin-right: 100.5px;
+    margin-right: 10.5rem;
+  }
+}
+/* line 297, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#search_page section[role=main] header h1, body#search_page section[role=main] article.no-results h1 {
+  margin-top: 0;
+  text-align: center;
+}
+/* line 300, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#search_page section[role=main] form {
+  margin: 0 auto;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 300, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] form {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 300, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] form {
+    margin-right: 147.75px;
+    margin-right: 12.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 300, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] form {
+    width: 708px;
+    width: 44.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 300, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] form {
+    margin-right: 100.5px;
+    margin-right: 10.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 308, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] form input[type=search] {
+    width: 292px;
+    width: 18.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 308, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#search_page section[role=main] form input[type=search] {
+    width: 624px;
+    width: 39rem;
+  }
+}
+/* line 312, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#search_page section[role=main] form input[type=submit] {
+  margin-left: 16px;
+  margin-left: 1rem;
+}
+/* line 320, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#contact_page section[role=main] {
+  margin: 48px auto;
+  margin: 3rem auto;
+}
+@media screen and (min-width: 52em) {
+  /* line 320, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#contact_page section[role=main] {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 320, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#contact_page section[role=main] {
+    width: 624px;
+    width: 39rem;
+  }
+}
+/* line 327, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#contact_page section[role=main] form#contact input, body#contact_page section[role=main] form#contact textarea {
+  width: 100%;
+}
+/* line 331, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#contact_page section[role=main] form#contact input[type=submit] {
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 331, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#contact_page section[role=main] form#contact input[type=submit] {
+    width: 156px;
+    width: 9.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 331, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#contact_page section[role=main] form#contact input[type=submit] {
+    width: 204px;
+    width: 12.75rem;
+  }
+}
+/* line 337, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#contact_page section[role=main] form#contact textarea {
+  height: 240px;
+  height: 15rem;
+}
+/* line 347, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div.day {
+  width: 100%;
+}
+@media screen and (min-width: 52em) {
+  /* line 347, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div.day {
+    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 347, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div.day {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 347, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div.day {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+/* line 359, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div.day:first-child {
+  margin-top: 15px;
+  margin-top: 0.9375rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 359, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div.day:first-child {
+    margin-top: 21px;
+    margin-top: 1.3125rem;
+  }
+}
+/* line 367, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div.day > header {
+  margin-bottom: 23px;
+  margin-bottom: 1.4375rem;
+  border-top: 1.584px solid #002244;
+  border-top: 0.099rem solid #002244;
+  border-bottom: 1.584px dotted #002244;
+  border-bottom: 0.099rem dotted #002244;
+}
+@media screen and (min-width: 52em) {
+  /* line 367, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div.day > header {
+    margin-bottom: 31px;
+    margin-bottom: 1.9375rem;
+  }
+}
+/* line 376, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div.day > header h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #6699cc;
+}
+@media screen and (min-width: 52em) {
+  /* line 376, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body div.day > header h1 {
+    font-size: 27.008px;
+    font-size: 1.688rem;
+  }
+}
+/* line 389, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div.day:first-child > header {
+  border-top: none;
+}
+/* line 400, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article {
+  padding-bottom: 46.416px;
+  padding-bottom: 2.901rem;
+  border-bottom: dotted #6699cc;
+  border-width: 1.584px;
+  border-width: 0.099rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  counter-reset: asides;
+}
+/* line 406, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article[role=main] {
+  margin-top: 41px;
+  margin-top: 2.5625rem;
+  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
+  border: none;
+}
+/* line 412, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+/* line 417, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article aside ol.asides {
+  list-style: none;
+}
+/* line 420, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article aside ol.asides li:before {
+  content: counter(asides) ". ";
+  counter-increment: asides;
+  position: absolute;
+  margin-left: -18px;
+  margin-left: -1.125rem;
+}
+/* line 430, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article footer.permalink {
+  text-align: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 433, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text, body article.link {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 433, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text, body article.link {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 437, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text header, body article.link header {
+    float: right;
+    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 437, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text header, body article.link header {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 437, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text header, body article.link header {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 437, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text header, body article.link header {
+    margin-right: 150.75px;
+    margin-right: 15.75rem;
+  }
+}
+/* line 447, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text header h1, body article.link header h1, body article.text header h2, body article.link header h2, body article.text header h3, body article.link header h3, body article.text header h4, body article.link header h4, body article.text header h5, body article.link header h5, body article.text header h6, body article.link header h6 {
+  margin-right: 0;
+}
+/* line 452, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text .intro-img, body article.link .intro-img {
+  margin-bottom: 48px;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 456, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p, body article.link p, body article.text blockquote, body article.link blockquote, body article.text ul, body article.link ul, body article.text ol, body article.link ol, body article.text dl, body article.link dl, body article.text footer, body article.link footer, body article.text h1, body article.link h1, body article.text h2, body article.link h2, body article.text h3, body article.link h3, body article.text h4, body article.link h4, body article.text h5, body article.link h5, body article.text h6, body article.link h6 {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 456, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p, body article.link p, body article.text blockquote, body article.link blockquote, body article.text ul, body article.link ul, body article.text ol, body article.link ol, body article.text dl, body article.link dl, body article.text footer, body article.link footer, body article.text h1, body article.link h1, body article.text h2, body article.link h2, body article.text h3, body article.link h3, body article.text h4, body article.link h4, body article.text h5, body article.link h5, body article.text h6, body article.link h6 {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 456, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p, body article.link p, body article.text blockquote, body article.link blockquote, body article.text ul, body article.link ul, body article.text ol, body article.link ol, body article.text dl, body article.link dl, body article.text footer, body article.link footer, body article.text h1, body article.link h1, body article.text h2, body article.link h2, body article.text h3, body article.link h3, body article.text h4, body article.link h4, body article.text h5, body article.link h5, body article.text h6, body article.link h6 {
+    margin-right: 150.75px;
+    margin-right: 15.75rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 456, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p, body article.link p, body article.text blockquote, body article.link blockquote, body article.text ul, body article.link ul, body article.text ol, body article.link ol, body article.text dl, body article.link dl, body article.text footer, body article.link footer, body article.text h1, body article.link h1, body article.text h2, body article.link h2, body article.text h3, body article.link h3, body article.text h4, body article.link h4, body article.text h5, body article.link h5, body article.text h6, body article.link h6 {
+    float: right;
+    clear: right;
+  }
+}
+/* line 466, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text p *, body article.link p *, body article.text blockquote *, body article.link blockquote *, body article.text ul *, body article.link ul *, body article.text ol *, body article.link ol *, body article.text dl *, body article.link dl *, body article.text footer *, body article.link footer *, body article.text h1 *, body article.link h1 *, body article.text h2 *, body article.link h2 *, body article.text h3 *, body article.link h3 *, body article.text h4 *, body article.link h4 *, body article.text h5 *, body article.link h5 *, body article.text h6 *, body article.link h6 * {
+  margin-right: 0;
+}
+/* line 469, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text img, body article.link img {
+  margin-bottom: 48px;
+  margin-bottom: 3rem;
+}
+/* line 471, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text blockquote, body article.link blockquote {
+  margin-left: -24px;
+  margin-left: -1.5rem;
+}
+/* line 475, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text p.callout, body article.link p.callout {
+  font-size: 27.008px;
+  font-size: 1.688rem;
+  margin: 54.016px 0px 54.016px 0px;
+  margin: 3.376rem 0rem 3.376rem 0rem;
+  padding: 54.016px 0px 54.016px 0px;
+  padding: 3.376rem 0rem 3.376rem 0rem;
+  float: right;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
+  text-indent: 0;
+}
+@media screen and (min-width: 52em) {
+  /* line 475, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p.callout, body article.link p.callout {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 475, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p.callout, body article.link p.callout {
+    width: 876px;
+    width: 54.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 475, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text p.callout, body article.link p.callout {
+    margin-right: 50.25px;
+    margin-right: 5.25rem;
+  }
+}
+/* line 489, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text aside, body article.link aside {
+  clear: left;
+}
+@media screen and (min-width: 52em) {
+  /* line 489, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text aside, body article.link aside {
+    width: 224px;
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 489, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text aside, body article.link aside {
+    width: 204px;
+    width: 12.75rem;
+  }
+}
+/* line 494, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text aside > *, body article.link aside > * {
+  float: left;
+  clear: left;
+}
+@media screen and (min-width: 52em) {
+  /* line 494, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text aside > *, body article.link aside > * {
+    width: 224px;
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 494, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.text aside > *, body article.link aside > * {
+    width: 204px;
+    width: 12.75rem;
+  }
+}
+/* line 501, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text aside ol, body article.link aside ol {
+  padding-top: 2px;
+  padding-top: 0.125rem;
+  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
+}
+/* line 506, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.text aside p, body article.link aside p, body article.text aside li, body article.link aside li {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+/* line 510, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.quotation {
+  margin: 54.016px 0px 0px 0px;
+  margin: 3.376rem 0rem 0rem 0rem;
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 510, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.quotation {
+    width: 632px;
+    width: 39.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 510, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.quotation {
+    margin-right: 49.25px;
+    margin-right: 4.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 510, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.quotation {
+    width: 708px;
+    width: 44.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 510, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body article.quotation {
+    margin-right: 100.5px;
+    margin-right: 10.5rem;
+  }
+}
+/* line 517, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.quotation:first-child {
+  margin-top: 81.024px;
+  margin-top: 5.064rem;
+}
+/* line 523, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.quotation blockquote {
+  border: none;
+  color: #002244;
+  padding: 19px 0px 20px 0px;
+  padding: 1.1875rem 0rem 1.25rem 0rem;
+  line-height: 41.328px;
+  line-height: 2.583rem;
+}
+/* line 529, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.quotation blockquote p {
+  font-size: 27.008px;
+  font-size: 1.688rem;
+  text-indent: 27.008px;
+  text-indent: 1.688rem;
+}
+/* line 535, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body article.quotation p.citation {
+  text-align: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 545, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .archive-nav {
+    float: left;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 545, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .archive-nav {
+    width: 224px;
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 545, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .archive-nav {
+    width: 288px;
+    width: 18rem;
+  }
+}
+/* line 555, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body .archive-by h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 560, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .summaries {
+    float: right;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 560, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .summaries {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 560, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .summaries {
+    width: 624px;
+    width: 39rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 568, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .summaries h1 {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 568, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body .summaries h1 {
+    width: 624px;
+    width: 39rem;
+  }
+}
+/* line 573, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body .summaries .summary > h1 {
+  font-size: 27.008px;
+  font-size: 1.688rem;
+}
+/* line 575, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body .summaries .summary header h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+/* line 578, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#content nav.archive-breadcrumbs {
+  border: none;
+}
+/* line 580, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#content nav.archive-breadcrumbs ul {
+  list-style: none;
+  text-align: left;
+  margin: 24px 0px 24px 0px;
+  margin: 1.5rem 0rem 1.5rem 0rem;
+}
+/* line 585, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#content nav.archive-breadcrumbs ul li {
+  display: inline;
+  margin-right: 0;
+}
+/* line 588, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#content nav.archive-breadcrumbs ul li:after {
+  margin-left: 12px;
+  margin-left: 0.75rem;
+  margin-right: 12px;
+  margin-right: 0.75rem;
+  content: "\2192";
+}
+/* line 593, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body div#content nav.archive-breadcrumbs ul li:last-child:after {
+  content: "";
+}
+/* line 598, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #archive-by-date {
+  float: left;
+  margin-top: 54px;
+  margin-top: 3.375rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 598, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #archive-by-date {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 598, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #archive-by-date {
+    width: 456px;
+    width: 28.5rem;
+  }
+}
+/* line 604, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #archive-by-date ol {
+  list-style: none;
+}
+/* line 607, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #archive-by-series {
+  margin-top: 54px;
+  margin-top: 3.375rem;
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 607, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #archive-by-series {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 607, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #archive-by-series {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+/* line 616, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #archive-by-series dl dt {
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+/* line 624, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#series_page #archive-by-series {
+  margin-top: 0;
+}
+@media screen and (min-width: 52em) {
+  /* line 624, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page #archive-by-series {
+    margin-right: 147.75px;
+    margin-right: 12.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 624, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page #archive-by-series {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 624, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page #archive-by-series {
+    margin-right: 150.75px;
+    margin-right: 15.75rem;
+  }
+}
+/* line 631, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#series_page section[role=main] header {
+  float: left;
+}
+@media screen and (min-width: 52em) {
+  /* line 631, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] header {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 631, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] header {
+    width: 456px;
+    width: 28.5rem;
+  }
+}
+/* line 638, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#series_page section[role=main] header p {
+  text-indent: 0;
+}
+@media screen and (min-width: 52em) {
+  /* line 641, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] #archive-by-series {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 641, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] #archive-by-series {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 641, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] #archive-by-series {
+    margin-right: 150.75px;
+    margin-right: 15.75rem;
+  }
+}
+/* line 647, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#series_page section[role=main] article.summary {
+  clear: right;
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 647, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] article.summary {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 647, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] article.summary {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+/* line 653, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#series_page section[role=main] article.summary header {
+  margin: 0;
+  float: right;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 653, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] article.summary header {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 653, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#series_page section[role=main] article.summary header {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+/* line 660, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#series_page section[role=main] article.summary p {
+  margin: 0;
+  clear: right;
+}
+/* line 670, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav.article-list-navigation {
+  margin-top: 24px;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 670, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body nav.article-list-navigation {
+    margin-top: -3px;
+    margin-top: -0.1875rem;
+    margin-bottom: -1px;
+    margin-bottom: -0.0625rem;
+  }
+}
+/* line 680, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body p.intro {
+  float: left;
+}
+@media screen and (min-width: 52em) {
+  /* line 680, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body p.intro {
+    width: 88px;
+    width: 5.5rem;
+  }
+}
+/* line 684, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav {
+  clear: right;
+}
+/* line 686, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav .older {
+  float: left;
+  margin: 0;
+}
+/* line 687, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body nav .newer {
+  float: right;
+  margin: 0;
+}
+/* line 695, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#document_page section[role=main] header {
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 695, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#document_page section[role=main] header {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 695, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#document_page section[role=main] header {
+    margin-right: 147.75px;
+    margin-right: 12.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 695, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#document_page section[role=main] header {
+    width: 708px;
+    width: 44.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 695, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#document_page section[role=main] header {
+    margin-right: 100.5px;
+    margin-right: 10.5rem;
+  }
+}
+/* line 703, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#document_page section[role=main] header p {
+  color: #999999;
+  margin: 0;
+}
+/* line 704, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#document_page section[role=main] header h1 {
+  margin-top: 0;
+}
+/* line 713, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] {
+  clear: both;
+}
+/* line 717, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] > * p, body section[role=complimentary] > * li {
+  font-size: 24px;
+  font-size: 1.5rem;
+  text-indent: 0;
+  line-height: 36px;
+  line-height: 2.25rem;
+  margin-bottom: 17px;
+  margin-bottom: 1.0625rem;
+}
+/* line 725, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] p.last-updated {
+  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
+}
+/* line 730, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] > p {
+  float: right;
+  margin: 0 auto;
+}
+@media screen and (min-width: 52em) {
+  /* line 730, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] > p {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 730, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] > p {
+    width: 624px;
+    width: 39rem;
+  }
+}
+/* line 737, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] h1 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin: -1px 0px -2px 0px;
+  margin: -0.0625rem 0rem -0.125rem 0rem;
+}
+/* line 742, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] nav {
+  clear: both;
+}
+@media screen and (min-width: 52em) {
+  /* line 742, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] nav {
+    width: 224px;
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 742, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] nav {
+    width: 288px;
+    width: 18rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 742, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] nav {
+    border-bottom: none;
+    float: right;
+  }
+}
+/* line 754, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.primary-complimentary {
+  border-top: 1.584px solid #002244;
+  border-top: 0.099rem solid #002244;
+  border-bottom: 1.584px dotted #002244;
+  border-bottom: 0.099rem dotted #002244;
+}
+@media screen and (min-width: 52em) {
+  /* line 754, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.primary-complimentary {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 754, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.primary-complimentary {
+    width: 708px;
+    width: 44.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 754, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.primary-complimentary {
+    border-bottom: none;
+    float: left;
+  }
+}
+/* line 766, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.primary-complimentary span {
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 771, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.secondary-complimentary {
+  clear: both;
+}
+@media screen and (min-width: 52em) {
+  /* line 771, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 771, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+/* line 777, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.secondary-complimentary > div {
+  border-top: 1.584px solid #002244;
+  border-top: 0.099rem solid #002244;
+  border-bottom: 1.584px dotted #002244;
+  border-bottom: 0.099rem dotted #002244;
+  border-bottom: none;
+}
+@media screen and (min-width: 52em) {
+  /* line 777, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div {
+    margin-top: -3px;
+    margin-top: -0.1875rem;
+  }
+}
+/* line 786, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.secondary-complimentary > div nav {
+  border: none;
+}
+/* line 788, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.secondary-complimentary > div:first-child {
+  float: left;
+}
+@media screen and (min-width: 52em) {
+  /* line 788, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div:first-child {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 788, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div:first-child {
+    width: 540px;
+    width: 33.75rem;
+  }
+}
+/* line 794, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body section[role=complimentary] div.secondary-complimentary > div:last-child {
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 794, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div:last-child {
+    width: 292px;
+    width: 18.25rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 794, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div:last-child {
+    width: 456px;
+    width: 28.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 800, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div#tags {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 800, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body section[role=complimentary] div.secondary-complimentary > div#tags {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+/* line 811, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#presentations_page [role=main] > div {
+  width: 320px;
+  width: 20rem;
+  margin-top: 48px;
+  margin-top: 3rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 811, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 811, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 818, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div h1 {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 818, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div h1 {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 823, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div img.preview-presentation {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 823, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div img.preview-presentation {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 823, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div img.preview-presentation {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 831, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div .description {
+    float: right;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 831, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div .description {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 831, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div .description {
+    width: 624px;
+    width: 39rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 839, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div aside {
+    float: left;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 839, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div aside {
+    width: 224px;
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 839, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body#presentations_page [role=main] > div aside {
+    width: 204px;
+    width: 12.75rem;
+  }
+}
+/* line 846, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#presentations_page [role=main] > div aside dt {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+/* line 849, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#presentations_page [role=main] > div aside dt:after {
+  content: ": ";
+}
+/* line 852, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body#presentations_page [role=main] > div aside dd {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+/* line 859, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer {
+  margin-top: 47px;
+  margin-top: 2.9375rem;
+  padding: 48px 0px 24px 0px;
+  padding: 3rem 0rem 1.5rem 0rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 859, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer {
+    width: 100%;
+    background: #002244;
+    color: white;
+  }
+  /* line 868, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer h1, body > footer h2, body > footer h3, body > footer h4, body > footer h5, body > footer h6 {
+    color: #6699cc;
+  }
+  /* line 872, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer a {
+    color: #6699cc;
+  }
+  /* line 874, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer a:visited {
+    color: #6699cc;
+  }
+  /* line 875, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer a:hover {
+    color: #8cb2d9;
+  }
+}
+/* line 880, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer p {
+  text-indent: 0;
+}
+/* line 882, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer .extras {
+  margin: 0 auto;
+}
+@media screen and (min-width: 52em) {
+  /* line 882, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer .extras {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 882, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer .extras {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 888, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #me {
+    float: left;
+    clear: left;
+  }
+}
+/* line 895, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #me div {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 900, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #about {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 900, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #about {
+    width: 624px;
+    width: 39rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 905, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social {
+    width: 496px;
+    width: 31rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 905, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social {
+    width: 708px;
+    width: 44.25rem;
+  }
+}
+/* line 909, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social:after {
+  clear: both;
+}
+/* line 911, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul {
+  list-style: none;
+  text-align: center;
+}
+@media screen and (min-width: 52em) {
+  /* line 911, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social ul {
+    text-align: left;
+  }
+}
+/* line 919, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul li {
+  height: 36px;
+  height: 2.25rem;
+  width: 36px;
+  width: 2.25rem;
+  display: inline;
+  margin-left: 16px;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 52em) {
+  /* line 919, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social ul li {
+    width: 156px;
+    width: 9.75rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 919, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social ul li {
+    width: 204px;
+    width: 12.75rem;
+  }
+}
+/* line 928, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul li span {
+  display: none;
+}
+/* line 932, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul li:first-child {
+  margin-left: 0;
+}
+/* line 936, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul li img {
+  width: 36px;
+  width: 2.25rem;
+  opacity: .5;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+/* line 945, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul li:hover img {
+  opacity: 1;
+}
+/* line 948, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer #social ul li a:hover {
+  color: #6699cc;
+}
+@media screen and (min-width: 52em) {
+  /* line 919, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social ul li {
+    margin: 0px 16px 0px 0px;
+    margin: 0rem 1rem 0rem 0rem;
+    height: 24px;
+    height: 1.5rem;
+    float: left;
+  }
+  /* line 956, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social ul li img {
+    width: 1.25rem;
+    margin-right: 8px;
+    margin-right: 0.5rem;
+  }
+  /* line 961, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer #social ul li span {
+    display: inline;
+    font-size: 12px;
+    font-size: 0.75rem;
+  }
+}
+/* line 970, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer div#further-reading {
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 970, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer div#further-reading {
+    width: 224px;
+    width: 14rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 970, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer div#further-reading {
+    width: 288px;
+    width: 18rem;
+  }
+}
+/* line 976, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer div[role=contentinfo] {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  text-align: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 976, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer div[role=contentinfo] {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 976, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body > footer div[role=contentinfo] {
+    width: 1044px;
+    width: 65.25rem;
+  }
+}
+/* line 984, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer div[role=contentinfo] p {
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 986, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body > footer div[role=contentinfo] p span {
+  width: 8px;
+  width: 0.5rem;
+  overflow-x: hidden;
+}
+/* line 998, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body span.permalink {
+  opacity: 0;
+  display: none;
+  float: right;
+  clear: both;
+  position: static;
+  height: 0;
+  width: 0;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #111111;
+}
+@media screen and (min-width: 52em) {
+  /* line 998, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body span.permalink {
+    margin-right: -16px;
+    margin-right: -1rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 998, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body span.permalink {
+    margin-right: 48px;
+    margin-right: 3rem;
+  }
+}
+/* line 1023, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.permalinks span.permalink {
+  opacity: 1;
+  display: inline-block;
+}
+/* line 1027, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.permalinks button#show-permalinks {
+  color: #6699cc;
+}
+/* line 1031, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body aside {
+  display: none;
+}
+@media screen and (min-width: 52em) {
+  /* line 1031, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body aside {
+    display: block;
+  }
+}
+/* line 1040, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.annotations aside {
+  display: block;
+}
+/* line 1041, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.annotations button#show-annotations {
+  color: #6699cc;
+}
+/* line 1046, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info, body #info.night {
+  color: #111111;
+}
+@media screen and (min-width: 52em) {
+  /* line 1046, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info, body #info.night {
+    width: 768px;
+    width: 48rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 1046, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info, body #info.night {
+    width: 792px;
+    width: 49.5rem;
+  }
+}
+/* line 1050, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info h2, body #info.night h2 {
+  color: #002244;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 1055, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info h3, body #info.night h3 {
+  color: #002244;
+  text-align: center;
+}
+/* line 1056, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info #settings-navigation, body #info.night #settings-navigation {
+  float: left;
+}
+@media screen and (min-width: 52em) {
+  /* line 1056, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info #settings-navigation, body #info.night #settings-navigation {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 1056, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info #settings-navigation, body #info.night #settings-navigation {
+    width: 372px;
+    width: 23.25rem;
+  }
+}
+/* line 1061, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info #settings-utilities, body #info.night #settings-utilities {
+  float: right;
+}
+@media screen and (min-width: 52em) {
+  /* line 1061, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info #settings-utilities, body #info.night #settings-utilities {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 1061, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info #settings-utilities, body #info.night #settings-utilities {
+    width: 372px;
+    width: 23.25rem;
+  }
+}
+@media screen and (min-width: 52em) {
+  /* line 1066, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info dl, body #info.night dl {
+    width: 360px;
+    width: 22.5rem;
+  }
+}
+@media screen and (min-width: 67.25em) {
+  /* line 1066, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+  body #info dl, body #info.night dl {
+    width: 372px;
+    width: 23.25rem;
+  }
+}
+/* line 1070, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info dl dt, body #info.night dl dt {
+  float: left;
+  clear: both;
+  width: 24px;
+  width: 1.5rem;
+  height: 26.688px;
+  height: 1.668rem;
+  text-align: center;
+  padding: 4.8px 4px 4.8px 4px;
+  padding: 0.3rem 0.25rem 0.3rem 0.25rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+  background: #111111;
+  color: white;
+}
+/* line 1081, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info dl dt + dt, body #info.night dl dt + dt {
+  clear: none;
+  margin-left: 4px;
+  margin-left: 0.25rem;
+  padding: 4px 4px 4px 4px;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+/* line 1086, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info dl dt span, body #info.night dl dt span {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  position: fixed;
+}
+/* line 1089, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info dl dd, body #info.night dl dd {
+  float: right;
+  padding: 4px 4px 4px 4px;
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+/* line 1096, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body #info p, body #info.night p {
+  margin: 0;
+  padding-top: 16px;
+  padding-top: 1rem;
+  clear: both;
+}
+
+/* line 1101, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night {
+  background: #002244;
+  color: white;
+  -webkit-transition: background 0.5s ease, color 0.5s ease;
+  -moz-transition: background 0.5s ease, color 0.5s ease;
+  -o-transition: background 0.5s ease, color 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+/* line 1105, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night *, body.night > footer {
+  border-color: #cccccc;
+}
+/* line 1109, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night h1, body.night h2, body.night h3, body.night h4, body.night h5, body.night h6 {
+  color: white;
+}
+/* line 1113, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night p {
+  color: white;
+}
+/* line 1117, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night a {
+  color: #6699cc;
+}
+/* line 1121, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night h1 a {
+  color: white;
+}
+/* line 1125, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night ins {
+  color: #cccccc;
+}
+/* line 1128, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night form input[type=submit] {
+  background: white;
+  color: #002244;
+}
+/* line 1134, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night span.permalink {
+  color: #cccccc;
+}
+/* line 1139, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night nav a:visited {
+  color: #6699cc;
+}
+/* line 1140, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night nav a:hover {
+  color: #6699cc;
+}
+/* line 1143, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night nav mark {
+  background: transparent;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
+/* line 1149, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night nav mark a {
+  color: white;
+}
+/* line 1152, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night nav mark a:visited {
+  color: white;
+}
+/* line 1153, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night nav mark a:hover {
+  color: #e6e6e6;
+}
+/* line 1158, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night div.day > header {
+  border-bottom-color: white;
+}
+/* line 1163, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night section[role=complimentary] div.primary-complimentary, body.night section[role=complimentary] div.secondary-complimentary > * {
+  border-color: white;
+}
+/* line 1168, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.night > footer {
+  background: #000811;
+}
+
+/* line 1174, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+nav#global, div#utilities {
+  opacity: .75;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+/* line 1179, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.silenceNav nav#global, body.silenceNav div#utilities {
+  opacity: .25;
+}
+/* line 1183, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+body.silenceNav nav#global:focus, body.silenceNav nav#global:hover,
+body.silenceNav div#utilities:focus, body.silenceNav div#utilities:hover {
+  opacity: .75;
+}
+
+/* line 1190, /Users/bernardy/Sites/sites/bernardyu.com/bernardyu.com-workspace/sass/partials/_page.scss */
+.no-js div#utilities {
+  display: none;
+}
+
+/* line 7, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 27, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 9, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 11, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 67, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 13, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 93, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 98, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+/* line 104, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_helpers.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* Media Queries are include in the _page to take advantage of bubbling out features */
+@media print {
+  /* line 11, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 19, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 23, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 27, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 37, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 42, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 47, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 52, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 56, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 66, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 72, /Library/Ruby/Gems/1.8/gems/compass-h5bp-0.1.1/stylesheets/h5bp/_media.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

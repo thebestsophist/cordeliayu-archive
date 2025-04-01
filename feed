@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cordeliayu[dot]com</title>
+  <link rel="self" href="http://cordeliayu.com/atom/"/>
+  <link href="http://cordeliayu.com/journal/"/>
+  <author>
+    <name>Bernard Yu</name>
+    <email>bernard@enguin.com</email>
+  </author>
+  <id>http://cordeliayu.com</id>
+  <updated>2022-04-04T03:51-06:00</updated>
+  <entry xmlns="">
+    <title>I started a surgery blog</title>
+    <link href="http://cordeliayu.com/article/2022/04/i-started-a-surgery-blog"/>
+    <id>tags:bernardyu.com,2022-04-04:/article/2022/04/i-started-a-surgery-blog</id>
+    <published>2022-04-04T03:51-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+  </entry>
+  <entry xmlns="">
+    <title>News: I am joining 18F.</title>
+    <link href="http://cordeliayu.com/article/2018/01/news-i-am-joining-18f"/>
+    <id>tags:bernardyu.com,2018-01-02:/article/2018/01/news-i-am-joining-18f</id>
+    <published>2018-01-02T18:48-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+    <category schema="http://cordeliayu.com" term="18f"/>
+    <category schema="http://cordeliayu.com" term="community building"/>
+    <category schema="http://cordeliayu.com" term="opennews"/>
+    <category schema="http://cordeliayu.com" term="personal"/>
+    <category schema="http://cordeliayu.com" term="society"/>
+  </entry>
+  <entry xmlns="">
+    <title>Yes, All White People Need to Condemn White Supremacy</title>
+    <link href="http://cordeliayu.com/article/2017/08/yes-all-white-people-need-to-condemn-white-supremacy"/>
+    <id>tags:bernardyu.com,2017-08-14:/article/2017/08/yes-all-white-people-need-to-condemn-white-supremacy</id>
+    <published>2017-08-14T14:07-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+  </entry>
+  <entry xmlns="">
+    <title>Tinyletters by PoC</title>
+    <link href="http://cordeliayu.com/article/2017/02/tinyletters-by-poc"/>
+    <id>tags:bernardyu.com,2017-02-08:/article/2017/02/tinyletters-by-poc</id>
+    <published>2017-02-08T21:09-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>A list of tinyletter newsletters by people of color.</summary>
+  </entry>
+  <entry xmlns="">
+    <title>Making Space for Endurance</title>
+    <link href="http://cordeliayu.com/article/2016/12/making-space-for-endurance"/>
+    <id>tags:bernardyu.com,2016-12-11:/article/2016/12/making-space-for-endurance</id>
+    <published>2016-12-11T20:18-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>How do we inoculate democracy against the evils of collective ignorance?</summary>
+  </entry>
+  <entry xmlns="">
+    <title>Making Space for Notes: The Newsletter</title>
+    <link href="http://cordeliayu.com/article/2016/11/making-space-for-notes-the-newsletter"/>
+    <id>tags:bernardyu.com,2016-11-23:/article/2016/11/making-space-for-notes-the-newsletter</id>
+    <published>2016-11-23T17:15-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+  </entry>
+  <entry xmlns="">
+    <title>Building A More Holistic View of Sustainable</title>
+    <link href="http://cordeliayu.com/article/2016/11/building-a-more-holistic-view-of-sustainable"/>
+    <id>tags:bernardyu.com,2016-11-14:/article/2016/11/building-a-more-holistic-view-of-sustainable</id>
+    <published>2016-11-14T20:44-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+  </entry>
+  <entry xmlns="">
+    <title>Election Feels Crab Rangoon</title>
+    <link href="http://cordeliayu.com/article/2016/11/election-feels-crab-rangoon"/>
+    <id>tags:bernardyu.com,2016-11-08:/article/2016/11/election-feels-crab-rangoon</id>
+    <published>2016-11-08T22:08-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+    <category schema="http://cordeliayu.com" term="food"/>
+    <category schema="http://cordeliayu.com" term="recipe"/>
+  </entry>
+  <entry xmlns="">
+    <title>MOONCAKES</title>
+    <link href="http://cordeliayu.com/article/2016/09/mooncakes"/>
+    <id>tags:bernardyu.com,2016-09-07:/article/2016/09/mooncakes</id>
+    <published>2016-09-07T02:15-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+    <category schema="http://cordeliayu.com" term="recipe"/>
+  </entry>
+  <entry xmlns="">
+    <title>All the way down and all the way back.</title>
+    <link href="http://cordeliayu.com/article/2016/09/all-the-way-down-and-all-the-way-back"/>
+    <id>tags:bernardyu.com,2016-09-02:/article/2016/09/all-the-way-down-and-all-the-way-back</id>
+    <published>2016-09-02T17:00-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>How do we make society more just, inclusive, and sustainable? No really, how do we go from what we have right now to reshape government, civic life, and individual action to something better? What does better even mean? We start here.</summary>
+  </entry>
+  <entry xmlns="">
+    <title>Names are Hard</title>
+    <link href="http://cordeliayu.com/article/2016/01/names-are-hard"/>
+    <id>tags:bernardyu.com,2016-01-07:/article/2016/01/names-are-hard</id>
+    <published>2016-01-07T02:17-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+    <category schema="http://cordeliayu.com" term="gender"/>
+    <category schema="http://cordeliayu.com" term="names"/>
+    <category schema="http://cordeliayu.com" term="personal"/>
+  </entry>
+  <entry xmlns="">
+    <title>Stuff I’ve been thinking about</title>
+    <link href="http://cordeliayu.com/article/2015/10/stuff-i-ve-been-thinking-about"/>
+    <id>tags:bernardyu.com,2015-10-03:/article/2015/10/stuff-i-ve-been-thinking-about</id>
+    <published>2015-10-03T20:49-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>A few of the things I’ve been thinking about most the last few years.</summary>
+    <category schema="http://cordeliayu.com" term="ideas"/>
+    <category schema="http://cordeliayu.com" term="personal"/>
+  </entry>
+  <entry xmlns="">
+    <title>Floriography and small victories</title>
+    <link href="http://cordeliayu.com/article/2015/02/floriography-and-small-victories"/>
+    <id>tags:bernardyu.com,2015-02-16:/article/2015/02/floriography-and-small-victories</id>
+    <published>2015-02-16T00:38-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>Introducing floriography.bernardyu.com, a project digitizing 19th and 20th century dictionaries on the language of flowers.</summary>
+    <category schema="http://cordeliayu.com" term="books"/>
+    <category schema="http://cordeliayu.com" term="communication"/>
+    <category schema="http://cordeliayu.com" term="culture"/>
+    <category schema="http://cordeliayu.com" term="design"/>
+    <category schema="http://cordeliayu.com" term="history"/>
+    <category schema="http://cordeliayu.com" term="language"/>
+  </entry>
+  <entry xmlns="">
+    <title>Health Update 2014.11.06</title>
+    <link href="http://cordeliayu.com/article/2014/11/health-update-20141106"/>
+    <id>tags:bernardyu.com,2014-11-06:/article/2014/11/health-update-20141106</id>
+    <published>2014-11-06T13:50-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary/>
+    <category schema="http://cordeliayu.com" term="health"/>
+    <category schema="http://cordeliayu.com" term="health care"/>
+    <category schema="http://cordeliayu.com" term="medicine"/>
+    <category schema="http://cordeliayu.com" term="personal"/>
+  </entry>
+  <entry xmlns="">
+    <title>Session links for Responsive Typography from #muxdc</title>
+    <link href="http://cordeliayu.com/article/2014/09/session-links-for-responsive-typography-from-muxdc"/>
+    <id>tags:bernardyu.com,2014-09-21:/article/2014/09/session-links-for-responsive-typography-from-muxdc</id>
+    <published>2014-09-21T19:59-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>Links to resources discussed during the Responsive Typography session at MobileUXCampDC 2014.</summary>
+    <category schema="http://cordeliayu.com" term="typography"/>
+  </entry>
+  <entry xmlns="">
+    <title>Life Goals v2014.09.03</title>
+    <link href="http://cordeliayu.com/article/2014/09/life-goals-v20140903"/>
+    <id>tags:bernardyu.com,2014-09-05:/article/2014/09/life-goals-v20140903</id>
+    <published>2014-09-05T18:00-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>Paring the list down to the one thing that matters.</summary>
+    <category schema="http://cordeliayu.com" term="community building"/>
+    <category schema="http://cordeliayu.com" term="culture"/>
+    <category schema="http://cordeliayu.com" term="society"/>
+  </entry>
+  <entry xmlns="">
+    <title>The point of it all</title>
+    <link href="http://cordeliayu.com/article/2014/04/the-point-of-it-all"/>
+    <id>tags:bernardyu.com,2014-04-29:/article/2014/04/the-point-of-it-all</id>
+    <published>2014-04-29T02:01-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>What’s the point of society?</summary>
+    <category schema="http://cordeliayu.com" term="anthropology"/>
+    <category schema="http://cordeliayu.com" term="community building"/>
+    <category schema="http://cordeliayu.com" term="culture"/>
+    <category schema="http://cordeliayu.com" term="policy"/>
+  </entry>
+  <entry xmlns="">
+    <title>I’m leaving consulting…</title>
+    <link href="http://cordeliayu.com/article/2013/12/i-m-leaving-consulting"/>
+    <id>tags:bernardyu.com,2013-12-27:/article/2013/12/i-m-leaving-consulting</id>
+    <published>2013-12-27T19:47-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>Announcing that I am leaving consulting and joining Green America, a social justice and environmental sustainability not-for-profit.</summary>
+    <category schema="http://cordeliayu.com" term="job"/>
+    <category schema="http://cordeliayu.com" term="not-for-profit"/>
+    <category schema="http://cordeliayu.com" term="philanthropy"/>
+  </entry>
+  <entry xmlns="">
+    <title>The iPhone is not a saber-toothed tiger</title>
+    <link href="http://cordeliayu.com/article/2013/09/the-iphone-is-not-a-saber-toothed-tiger"/>
+    <id>tags:bernardyu.com,2013-09-20:/article/2013/09/the-iphone-is-not-a-saber-toothed-tiger</id>
+    <published>2013-09-20T18:30-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>We need to stop judging things based on our first impressions.</summary>
+    <category schema="http://cordeliayu.com" term="anthropology"/>
+    <category schema="http://cordeliayu.com" term="cognition"/>
+    <category schema="http://cordeliayu.com" term="decision making"/>
+    <category schema="http://cordeliayu.com" term="society"/>
+    <category schema="http://cordeliayu.com" term="technology"/>
+  </entry>
+  <entry xmlns="">
+    <title>Defending big ideas, sans ability</title>
+    <link href="http://cordeliayu.com/article/2013/09/defending-big-ideas-sans-ability"/>
+    <id>tags:bernardyu.com,2013-09-19:/article/2013/09/defending-big-ideas-sans-ability</id>
+    <published>2013-09-19T22:08-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>Why “If you really cared, you would build it yourself.” is a terrible way to look at the world.</summary>
+    <category schema="http://cordeliayu.com" term="communication"/>
+    <category schema="http://cordeliayu.com" term="discrimination"/>
+    <category schema="http://cordeliayu.com" term="technology"/>
+  </entry>
+  <entry xmlns="">
+    <title>Little Secrets</title>
+    <link href="http://cordeliayu.com/article/2013/09/little-secrets"/>
+    <id>tags:bernardyu.com,2013-09-17:/article/2013/09/little-secrets</id>
+    <published>2013-09-17T23:03-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>On the little secrets hidden inside a freshly-baked loaf of bread.</summary>
+    <category schema="http://cordeliayu.com" term="academici"/>
+    <category schema="http://cordeliayu.com" term="communication"/>
+    <category schema="http://cordeliayu.com" term="learning"/>
+  </entry>
+  <entry xmlns="">
+    <title>A few thoughts on patriotism and nationalism</title>
+    <link href="http://cordeliayu.com/article/2013/09/a-few-thoughts-on-patriotism-and-nationalism"/>
+    <id>tags:bernardyu.com,2013-09-11:/article/2013/09/a-few-thoughts-on-patriotism-and-nationalism</id>
+    <published>2013-09-11T20:16-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>A few rough thoughts on patriotism and nationalism on the anniversary of the terrorist attacks on September 11, 2001.</summary>
+    <category schema="http://cordeliayu.com" term="anthropology"/>
+    <category schema="http://cordeliayu.com" term="community building"/>
+    <category schema="http://cordeliayu.com" term="culture"/>
+    <category schema="http://cordeliayu.com" term="political science"/>
+  </entry>
+  <entry xmlns="">
+    <title>Sneak-Attack Quotations</title>
+    <link href="http://cordeliayu.com/article/2013/09/sneak-attack-quotations"/>
+    <id>tags:bernardyu.com,2013-09-02:/article/2013/09/sneak-attack-quotations</id>
+    <published>2013-09-02T07:46-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>I am now recording interesting and thoughtful quotations from the things I read, watch, and listen to. Properly cited.</summary>
+    <category schema="http://cordeliayu.com" term="books"/>
+    <category schema="http://cordeliayu.com" term="quotations"/>
+    <category schema="http://cordeliayu.com" term="reading"/>
+  </entry>
+  <entry xmlns="">
+    <title>An open letter to the older generations</title>
+    <link href="http://cordeliayu.com/article/2013/05/an-open-letter-to-the-older-generations"/>
+    <id>tags:bernardyu.com,2013-05-31:/article/2013/05/an-open-letter-to-the-older-generations</id>
+    <published>2013-05-31T20:14-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>We have seen your world, and we want nothing of it.</summary>
+    <category schema="http://cordeliayu.com" term="community building"/>
+    <category schema="http://cordeliayu.com" term="society"/>
+  </entry>
+  <entry xmlns="">
+    <title>Project Platen: A framework for digital books, with API.</title>
+    <link href="http://cordeliayu.com/article/2013/05/project-platen-a-framework-for-digital-books-with-api"/>
+    <id>tags:bernardyu.com,2013-05-09:/article/2013/05/project-platen-a-framework-for-digital-books-with-api</id>
+    <published>2013-05-09T23:47-06:00</published>
+    <updated>-NaN-NaNT-06:00</updated>
+    <summary>Project Platen is a framework for creating digital books, with APIs, built on top of Symphony CMS.</summary>
+    <category schema="http://cordeliayu.com" term="books"/>
+    <category schema="http://cordeliayu.com" term="meta-academics"/>
+    <category schema="http://cordeliayu.com" term="technology"/>
+    <category schema="http://cordeliayu.com" term="typography"/>
+  </entry>
+</feed>
